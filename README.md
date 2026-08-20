@@ -37,14 +37,15 @@ A **WebEducação** é uma plataforma integrada com o **SUDEO** onde intermedia 
 
 | ID | User Story | Prioridade |
 | :--- | :--- | :---: |
-| **US01** | Como aluno, quero buscar professores por disciplina e preço, para encontrar o profissional ideal dentro do meu orçamento. | **Alta** |
-| **US02** | Como aluno, quero agendar e pagar uma aula individual pela plataforma, para garantir minha reserva de forma rápida e segura. | **Alta** |
-| **US03** | Como professor, quero cadastrar minha agenda de horários disponíveis, para evitar conflitos de horários com os alunos. | **Alta** |
-| **US04** | Como professor, quero criar e personalizar meu perfil profissional com currículo e valores, para atrair mais alunos. | **Alta** |
-| **US05** | Como aluno, quero avaliar o professor após a realização da aula, para ajudar outros estudantes na escolha do profissional. | **Média** |
-| **US06** | Como aluno, quero receber notificações sobre o status da aula agendada, para não perder o horário do compromisso. | **Média** |
-| **US07** | Como professor, quero visualizar o relatório financeiro de aulas realizadas no mês, para ter controle da minha renda autônoma. | **Baixa** |
-| **US08** | Como aluno, quero ter um chat interno direto com o professor antes do agendamento, para tirar dúvidas sobre o conteúdo. | **Baixa** |
+| **US01** | Como aluno, quero achar um professor bom e que caiba na minha renda, de acordo também com as disciplinas que preciso. | **Alta** |
+| **US02** | Como aluno, preciso agendar e fazer um pagamento de uma aula. | **Alta** |
+| **US03** | Como professor, preciso cadastrar minha agenda de horários para que não tenha conflitos de horários. | **Alta** |
+| **US04** | Como professor, quero fazer um perfil adequado para chamar alunos, contendo valores e minha matéria especificada. | **Alta** |
+| **US05** | Como aluno, desejo realizar a avaliação do meu professor, para deixar um feedback aos que também realizarão alguma aula com ele. | **Média** |
+| **US06** | Como professor, desejo realizar um feedback sobre o aluno, para ele ter uma nota, ver se ele foi educado, respeitou etc. | **Média** |
+| **US07** | Como aluno, quero receber notificações sobre a aula para ver se ela foi cancelada ou sobre o horário para não me atrasar. | **Média** |
+| **US08** | Como professor, quero ver o tanto que as aulas me renderam ao fim do mês. | **Baixa** |
+| **US09** | Como aluno, quero um chat privado com o professor após a aula para poder tirar algumas dúvidas que ficaram. | **Baixa** |
 
 #### Planejamento e Execução da Sprint Simulada (Aula 4)
 * **Itens Selecionados:** `US01`, `US02` e `US03`
