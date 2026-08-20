@@ -8,7 +8,7 @@
 * **Cenário Escolhido:** J — Plataforma de aulas particulares (professores autônomos e alunos)
 * **Nome do Grupo:** *Grupo do Lucas Vinícius*
 * **Integrantes:**
-  * *Lucas Vinícius Strachulski Líder*
+  * *Lucas Vinícius Strachulski -- Líder*
   * *Jhuan Pablo Kobinski de Souza*
   * *Pedro Henrique Chaves*
   * *Felipe Fernandes Maximo*
