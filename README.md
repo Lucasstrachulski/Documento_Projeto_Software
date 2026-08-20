@@ -49,8 +49,12 @@ A **WebEducação** é uma plataforma integrada com o **SUDEO** onde intermedia 
 
 #### Planejamento e Execução da Sprint Simulada (Aula 4)
 * **Itens Selecionados:** `US01`, `US02` e `US03`
-* **Sprint Goal:** *"Permitir que o aluno busque um professor, visualize seus horários disponíveis e realize o agendamento de uma aula com pagamento."*
-* **Resultado da Mini Sprint Review:** Foram validadas a tela de busca com filtros por disciplina e preço, a exibição da grade de horários no perfil do professor e o fluxo completo de agendamento integrado a uma simulação de gateway de pagamento com bloqueio imediato na agenda.
+* **Sprint Goal:** *"Entregar a jornada do aluno desde a busca do professor até a reserva paga e bloqueada na agenda."*
+* **Escopo do Trabalho:**
+  * **US01 (Busca):** Interface com filtros de matéria e preço; API de busca integrada ao banco de dados.
+  * **US02 (Grade de Horários):** Componente visual de calendário; API de consulta de disponibilidade do professor.
+  * **US03 (Agendamento e Pagamento):** Checkout integrado a um simulador de gateway e rotina no banco para evitar conflitos de horários (*double booking*).
+* **Resultado da Mini Sprint Review:** Busca filtrada funcional, exibição dinâmica da agenda do professor e confirmação de pagamento com bloqueio em tempo real da agenda.
 
 ---
 
