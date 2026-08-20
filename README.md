@@ -8,10 +8,10 @@
 * **Cenário Escolhido:** J — Plataforma de aulas particulares (professores autônomos e alunos)
 * **Nome do Grupo:** *[Insira o Nome do Seu Grupo]*
 * **Integrantes:**
-  * *[Nome do Integrante 1]*
-  * *[Nome do Integrante 2]*
-  * *[Nome do Integrante 3]*
-  * *[Nome do Integrante 4]*
+  * *Lucas Vinícius Strachulski*
+  * *Jhuan Pablo Kobinski de Souza*
+  * *Pedro Henrique Chaves*
+  * *Felipe Fernandes Maximo*
 
 ---
 
