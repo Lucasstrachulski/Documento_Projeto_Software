@@ -1,4 +1,4 @@
-# 📚 EduConecta — Plataforma de Aulas Particulares
+# 📚 WebEducação — Plataforma de Aulas Particulares
 > **Projeto Integrador - Consolidação do 1º Bimestre**  
 > *Engenharia de Software*
 
