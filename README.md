@@ -18,16 +18,16 @@
 ## 📄 Documento do Projeto
 
 ### 1. Identificação e Visão Geral do Sistema
-A **EduConecta** é uma plataforma web e mobile desenvolvida para intermediar a busca, o agendamento e a realização de aulas particulares entre professores autônomos e alunos de diversas áreas do conhecimento. O sistema permite que professores divulguem suas qualificações, horários e valores, enquanto alunos encontram profissionais qualificados por meio de filtros de matéria e avaliação. Além disso, a plataforma gerencia o pagamento seguro e disponibiliza ambiente ou links para as aulas. O objetivo principal é facilitar o acesso ao ensino personalizado e oferecer uma ferramenta eficiente de gestão de agenda para os educadores.
+A **WebEducação** é uma plataforma integrada com o **SUDEO** onde intermedia a busca de aulas, o agendamento e a realização de aulas particulares entre os professores e alunos da própria Faculdade (UniCesumar). O sistema permite em que os professores de cada curso divulguem suas especificações, horários livres e os valores das aulas. Enquanto os alunos buscam os profissionais adequados por meio de filtros. Além disso, para não ter golpes, o próprio sistema gerencia o pagamento das aulas, deixando mais confiável e seguro. O objetivo principal é oferecer uma ferramenta eficiente de gestão de agenda para os educadores.
 
 ---
 
 ### 2. Modelo de Processo Adotado
 **Modelo Selecionado:** Desenvolvimento Incremental (Ágil)
 
-* **Estabilidade dos Requisitos:** As plataformas de e-learning possuem requisitos dinâmicos. O feedback contínuo dos alunos e professores exigirá ajustes frequentes que não seriam suportados pelo Modelo em Cascata.
-* **Nível de Risco:** O principal risco do projeto é a rejeição por parte do público-alvo (baixo engajamento ou interface confusa). O modelo Incremental reduz esse risco ao permitir o lançamento de um MVP focado no agendamento básico, testando o mercado antes de investir em funcionalidades mais complexas.
-* **Prazo Esperado:** O mercado exige entregas rápidas. O modelo Incremental garante que partes funcionais do sistema sejam entregues em ciclos curtos (Sprints), acelerando o tempo de lançamento no mercado (*time-to-market*).
+* **Estabilidade dos Requisitos:** As plataformas de aprendizado virtual possuem requisitos dinâmicos. O feedback contínuo dos alunos e professores vai exigir ajustes frequentes que não seriam suportados pelo Modelo em Cascata.
+* **Nível de Risco:** O principal risco do projeto é a rejeição por parte do público. O modelo Incremental reduz esse risco ao permitir o lançamento de um MVP focado no agendamento básico, testando o mercado antes de investir em funcionalidades mais elaboradas.
+* **Prazo Esperado:** O mercado exige entregas rápidas. O modelo Incremental garante que partes funcionais do sistema sejam entregues em ciclos curtos, acelerando o tempo de lançamento no mercado.
 
 ---
 
