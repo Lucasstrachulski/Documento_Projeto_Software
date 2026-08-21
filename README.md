@@ -63,7 +63,7 @@ A **WebEducação** é uma plataforma integrada com o **SUDEO** onde intermedia 
 #### Testes da US01 — Busca por disciplina e preço
 * **Tipos de Teste Aplicáveis:** Integração e Sistema.
 
-```gherkin
+
 Cenário 1: Busca com resultados válidos
   Dado que o aluno digitou "Matemática" no campo de busca e definiu o valor máximo de R$ 80,00/hora,
   Quando ele clica no botão "Buscar",
@@ -73,3 +73,19 @@ Cenário 2: Busca sem resultados correspondentes
   Dado que o aluno buscou por uma disciplina não cadastrada no sistema,
   Quando a busca for processada,
   Então o sistema deve exibir a mensagem "Nenhum professor encontrado para esta busca" e sugerir matérias correlatas.
+
+  ### 5. Análise Ética e Privacidade
+
+| Risco | Mitigação |
+| :--- | :--- |
+| **Dados de menores** | Proteger os dados, coletar apenas informações necessárias e seguir a LGPD. |
+| **Avaliações injustas** | Criar regras de avaliação, permitir denúncias e realizar moderação. |
+| **Evasão** | Melhorar a experiência do usuário, oferecer suporte e utilizar feedbacks para aprimorar a plataforma. |
+
+A WebEducação deve garantir segurança, privacidade e uso responsável dos dados de alunos e professores, evitando acessos indevidos e possíveis fraudes.
+
+---
+
+### 6. Considerações Finais
+
+A WebEducação permitiu ao grupo aplicar os conhecimentos estudados durante o bimestre. O modelo incremental facilita melhorias por meio dos feedbacks dos usuários. O backlog e as User Stories ajudaram a organizar as principais necessidades do sistema. A Sprint priorizou a busca, o agendamento e o pagamento das aulas. Também foram considerados aspectos de segurança e privacidade. Os riscos relacionados aos dados de menores, avaliações injustas e evasão mostram a importância da ética no desenvolvimento. Dessa forma, o projeto busca oferecer uma plataforma segura, organizada e útil para alunos e professores.
