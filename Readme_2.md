@@ -31,36 +31,43 @@
   - 🟢 **Baixa:** 2 Histórias (8 SP) — *Funcionalidades Complementares*
 
 
-### 3.2. Detalhamento e Critérios de Aceite (Sprint Simulada)
+## 📋 3.2 Backlog do Produto (US05 a US09)
 
-#### 🔍 US01 — Busca por Disciplina e Preço
-**Descrição:** Permite ao aluno filtrar a lista de professores disponíveis de acordo com a matéria desejada e o valor limite por hora/aula.
+Abaixo estão descritas as histórias de usuário do backlog:
 
-**Critérios de Aceite:**
-- [ ] **CA01.1 — Filtros Múltiplos:** O sistema deve fornecer filtros por disciplina (ex.: Cálculo, Programação, Física) e por valor máximo (R$/h).
-- [ ] **CA01.2 — Ordenação de Resultados:** Os resultados devem ser ordenados por padrão pela menor tarifa ou por melhor avaliação.
-- [ ] **CA01.3 — Sugestão Inteligente:** Caso nenhum professor atenda aos critérios exatos, o sistema deve sugerir matérias correlatas ou faixas de preço aproximadas.
-
----
-
-#### 💳 US02 — Agendamento e Pagamento de Aula
-**Descrição:** Permite ao aluno selecionar um horário vago no calendário do professor, revisar os dados da aula e efetuar o pagamento via gateway integrado (PIX ou Cartão).
-
-**Critérios de Aceite:**
-- [ ] **CA02.1 — Bloqueio Temporário:** Ao selecionar o horário, o sistema deve temporariamente "bloquear" o slot por 10 minutos para conclusão do pagamento.
-- [ ] **CA02.2 — Confirmação via Gateway:** A confirmação da reserva só ocorre mediante aprovação da transação pelo gateway simulado.
-- [ ] **CA02.3 — Notificação Instantânea:** O aluno e o professor devem receber a confirmação por e-mail e na plataforma imediatamente após o pagamento.
+* *US05:* Aluno avalia o professor com método de estrelas (como o da Uber por exemplo) e comentários.
+* *US06:* O professor avalia a pontualidade do horário do aluno.
+* *US07:* Avisar no email e na plataforma sobre a aula 1 hora antes.
+* *US08:* Mostra um relatório de quanto o professor ganhou no total no mês.
+* *US09:* Um chat temporário de 24 horas após a aula.
 
 ---
 
-#### 📅 US03 — Gestão da Agenda do Professor
-**Descrição:** O professor visualiza um calendário semanal/mensal para cadastrar seus horários de atendimento livres e bloquear horários indisponíveis.
+## 🏃 3.3 Planejamento e Execução da Sprint Simulada
 
-**Critérios de Aceite:**
-- [ ] **CA03.1 — Flexibilidade de Horários:** O professor pode definir horários recorrentes (ex.: toda terça-feira das 14h às 16h) ou horários avulsos.
-- [ ] **CA03.2 — Proteção de Aulas Agendadas:** Horários com aulas já pagas não podem ser excluídos ou alterados sem passar pelo fluxo de cancelamento.
-- [ ] **CA03.3 — Prevenção de Conflitos:** A agenda deve impedir automaticamente qualquer tentativa de cadastro de horários sobrepostos (*double booking*).
+* *Sprint Goal:* Entregar toda a jornada do aluno desde a procura do professor até o agendamento e pagamento da aula.
 
+* *Itens do Backlog:* US01, US02, US03.
+
+* *Detalhamento das funcionalidades do sprint:*
+  * *US01: Busca por disciplina e Preço:*
+    * O aluno pode filtrar os professores por matéria, valor ou avaliação.
+    * O sistema deve fornecer filtros por disciplina e por valor.
+    * Os resultados devem ser ordenados por valor e avaliação.
+    * Caso nenhum professor atenda os critérios, mostrar matérias parecidas e/ou de interesse do aluno.
+  
+  * *US02: Agendamento e pagamento da aula:*
+    * O aluno pode selecionar um horário livre e pagar via gateway integrado como PIX ou cartão.
+    * Ao selecionar o horário, o sistema deve bloquear o horário por 10 minutos para realizar o pagamento.
+    * A confirmação só ocorre após a aprovação do pagamento.
+    * Tanto o aluno quanto o professor devem receber a confirmação via e-mail.
+  
+  * *US03: Gestão de agenda do professor:*
+    * O professor tem um calendário semanal para colocar seus horários disponíveis de aula.
+    * Horários com aulas já pagas não podem ser excluídos ou alterados sem passar por cancelamento.
+    * A agenda deve impedir qualquer tentativa de agendamento em horários já confirmados para evitar o chamado double booking.
+
+* *Resultado:* Retornou todos os dados de forma correta, o calendário exibiu as datas de forma correta com os horários disponíveis e também foi feito o bloqueio no horário escolhido na agenda do professor.
 
 ## 4. Plano de Testes e Qualidade
 O plano de testes busca validar o comportamento do sistema nos cenários principais e de exceção da
