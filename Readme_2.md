@@ -3,16 +3,16 @@ Tabela do backlog com user stories
 
 ID	                  User Story	                                                                                                                                   Prioridade
 
-usuario01	               Como aluno, quero buscar professores por disciplina e valores preço,                                                                            Alta
-                         para encontrar um educador compatível com meu orçamento e necessidade.	 
+usuario01	               Como aluno, quero buscar professores por disciplina e valores preço,                                                                          
+                         para encontrar um educador compatível com meu orçamento e necessidade.	                                                                          Alta
 
 
-usuario02	               Como aluno, quero agendar e fazer o pagamento da minha aula, para garantir a reserva do meu horário                                             Alta
-                         com segurança.  
+usuario02	               Como aluno, quero agendar e fazer o pagamento da minha aula, para garantir a reserva do meu horário                                             
+                         com segurança.                                                                                                                                  Alta
 
 
-usuario03	               Como professor, quero cadastrar minha grade de horários, para evitar                                                                            Alta
-                         dois ou mais agendamentos no mesmo horário.
+usuario03	               Como professor, quero cadastrar minha grade de horários, para evitar                                                                            
+                         dois ou mais agendamentos no mesmo horário.                                                                                                     Alta
 
 
 usuario04	               Como professor, quero fazer um perfil completo com matérias, e valores, para chamar mais alunos .                                               Alta
@@ -24,8 +24,8 @@ usuario05	               Como aluno, quero avaliar o professor depois da aula, p
 usuario06	               Como professor, quero registrar um feedback sobre o aluno, para manter o histórico de conduta e comprometimento.	                              Média
 
 
-usuario07	               Como aluno, quero receber notificações sobre confirmações, cancelamentos e lembretes de aula,                                                  Média
-                         para não perder os horários agendados.	
+usuario07	               Como aluno, quero receber notificações sobre confirmações, cancelamentos e lembretes de aula,                                                  
+                         para não perder os horários agendados.	                                                                                                        Média
 
 
 usuario08	               Como professor, quero visualizar o relatório mensal dos rendimentos das minhas aulas, para ter                                                 Baixa
