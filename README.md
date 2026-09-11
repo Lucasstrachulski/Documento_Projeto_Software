@@ -44,11 +44,12 @@ Usuario 08 (Baixa): Painel financeiro do professor mostrando saldo acumulado.
 
 Usuario 09 (Baixa): Chat simples pós-aula para tirar dúvidas rápidas.
 
+
 Sprint Simulada
 
 Testamos as histórias Usuario 01, Usuario 02 e Usuario 03. Montamos a busca com filtro, o calendário sem conflito de horários e o checkout simulado que altera o status da aula para Confirmada. O fluxo completo rodou sem erros.
 
-Testes do Sistema (Gherkin / BDD)
+Testes do Sistema
 
 Módulo 1: Busca de Professores Usuario 01
 
