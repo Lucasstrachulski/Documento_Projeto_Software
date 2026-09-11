@@ -5,7 +5,6 @@ Tema / Sistema: WebEducação — Plataforma de Aulas Particulares
 Cenário Escolhido: Cenário J Aulas particulares entre alunos e professores autônomos
 
 Integrantes do Grupo
---------------------------------------------
 
 Lucas Vinícius Strachulski Lider do Grupo
 
@@ -14,7 +13,6 @@ Jhuan Pablo Kobinski de Souza
 Pedro Henrique Chaves
 
 Felipe Fernandes Maximo
---------------------------------------------
 
 Apresentação do Sistema
 A WebEducação nasceu pra resolver um problema bem comum na UniCesumar: a dificuldade de achar monitores ou professores particulares pra matérias mais pesadas (tipo Cálculo, Estrutura de Dados ou Física). Do outro lado, quem quer dar aula também sofre pra organizar a agenda e receber pelo serviço.
@@ -35,7 +33,7 @@ Backlog do Produto e Divisão das Tarefas
 4.1. Histórias de Usuário User Stories
 Aqui tá o que a gente mapeou que o sistema precisa ter:
 
-US01 Prioridade Alta — Filtro de Busca por Matéria e Preço
+Usuario 01 Prioridade Alta — Filtro de Busca por Matéria e Preço
 
 Como: Aluno
 
@@ -45,7 +43,7 @@ Para que: Achar alguém pra me ajudar na matéria sem estourar o orçamento.
 
 O que precisa ter: Campo de busca por texto e um filtro de preço limite.
 
-US02 Prioridade Alta — Escolha de Horário e Pagamento Imediato
+Usuario 02 Prioridade Alta — Escolha de Horário e Pagamento Imediato
 
 Como: Aluno
 
@@ -55,7 +53,7 @@ Para que: Garantir a vaga no horário sem correr o risco de perder pra outro.
 
 O que precisa ter: Travar o horário na agenda e mudar o status assim que o pagamento passar.
 
-US03 Prioridade Alta — Gestão da Agenda do Professor
+Usuario 03 Prioridade Alta — Gestão da Agenda do Professor
 
 Como: Professor
 
@@ -65,7 +63,7 @@ Para que: Organizar minha rotina e não marcar duas aulas no mesmo horário.
 
 O que precisa ter: O sistema não pode deixar salvar dois horários encavalados no mesmo dia.
 
-US04 Prioridade Alta — Perfil do Professor
+Usuario 04 Prioridade Alta — Perfil do Professor
 
 Como: Professor
 
@@ -75,7 +73,7 @@ Para que: Passar confiança pros alunos e fechar mais aulas.
 
 O que precisa ter: Foto, biografia rápida e a lista das matérias que ensino.
 
-US05 Prioridade Média — Avaliação do Professor pelo Aluno
+Usuario 05 Prioridade Média — Avaliação do Professor pelo Aluno
 
 Como: Aluno
 
@@ -85,7 +83,7 @@ Para que: Ajudar outros alunos a saberem se o professor manda bem.
 
 O que precisa ter: Liberar a avaliação só depois que o horário da aula terminar.
 
-US06 Prioridade Média — Avaliação do Aluno pelo Professor
+Usuario 06 Prioridade Média — Avaliação do Aluno pelo Professor
 
 Como: Professor
 
@@ -95,7 +93,7 @@ Para que: Deixar registrado se o aluno foi pontual e de boa na aula.
 
 O que precisa ter: Campo de nota de 1 a 5 no histórico de aulas do professor.
 
-US07 Prioridade Média — Lembretes e Notificações por E-mail
+Usuario 07 Prioridade Média — Lembretes e Notificações por E-mail
 
 Como: Aluno
 
@@ -105,7 +103,7 @@ Para que: Eu não esqueça do compromisso.
 
 O que precisa ter: Disparo de e-mail assim que agenda e outro 2 horas antes de começar.
 
-US08 Prioridade Baixa — Painel Financeiro do Professor
+Usuario 08 Prioridade Baixa — Painel Financeiro do Professor
 
 Como: Professor
 
@@ -115,7 +113,7 @@ Para que: Saber quanto tenho liberado pra sacar.
 
 O que precisa ter: Tela mostrando o total líquido e o histórico das aulas pagas.
 
-US09 Prioridade Baixa — Chat de Dúvidas Pós-Aula
+Usuario 09 Prioridade Baixa — Chat de Dúvidas Pós-Aula
 
 Como: Aluno
 
@@ -126,7 +124,7 @@ Para que: Tirar alguma dúvida rápida sobre a aula.
 O que precisa ter: Chat simples atrelado àquela aula específica.
 
 4.2. O que fizemos na Sprint Simulada
-Pra testar o primeiro ciclo Sprint, a gente pegou as três tarefas mais importantes (US01, US02 e US03), que cobrem o caminho principal do uso.
+Pra testar o primeiro ciclo Sprint, a gente pegou as três tarefas mais importantes (Usuario 01, Usuario 02 e Usuario 03), que cobrem o caminho principal do uso.
 
 Meta da Sprint: Deixar o fluxo completo rodando: da busca da aula até a confirmação do pagamento com o bloqueio da agenda.
 
@@ -143,7 +141,7 @@ Resultado do teste: Deu pra simular certinho o aluno reservando a aula de um pro
 Testes do Sistema Escritos em Gherkin / BDD
 Pra ter certeza que tudo vai funcionar na prática, montamos os cenários de teste pensando no dia a dia.
 
-Módulo 1: Busca de Professores US01
+Módulo 1: Busca de Professores Usuario 01
 
 Cenário 1.1: Busca normal com filtros
 Dado que estou na tela de busca
@@ -165,7 +163,7 @@ E coloco letras ou números negativos no preço máximo
 Quando tento buscar
 Então o sistema avisa que o valor tá errado e pede pra corrigir.
 
-Módulo 2: Agendamento e Pagamento US02
+Módulo 2: Agendamento e Pagamento Usuario 02
 
 Cenário 2.1: Agendando e pagando com sucesso
 Dado que escolhi a aula de Estrutura de Dados com o professor Carlos pra quinta-feira às 15:00
@@ -190,7 +188,7 @@ Então o sistema cancela a reserva
 E avisa que o dinheiro vai ser devolvido
 E libera o horário de novo na agenda do professor.
 
-Módulo 3: Agenda do Professor e Bloqueio de Choques US03
+Módulo 3: Agenda do Professor e Bloqueio de Choques Usuario 03
 
 Cenário 3.1: Cadastrando novo horário livre
 Dado que entrei no meu painel de professor
@@ -220,3 +218,5 @@ Garantia do pagamento: Pra evitar calote dos dois lados, o dinheiro só vai pro 
 
 Conclusão do Grupo
 Fazer esse relatório do 1º Bimestre ajudou muito a gente a entender como organizar um projeto de software desde a fase de ideias. Conseguimos montar um backlog realista, definir o MVP e testar na prática.
+
+O formato BDD ajudou bastante a enxergar a plataforma pela visão do usuário, o que evitou vários furos nas regras de negócio. O grupo tá bem alinhado e pronto pras próximas etapas, onde vamos desenhar a arquitetura e os protótipos das telas.
