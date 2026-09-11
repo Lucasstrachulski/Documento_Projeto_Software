@@ -1,12 +1,12 @@
 PROJETO INTEGRADOR — CONSOLIDAÇÃO DO 1º BIMESTRE
 
 Curso: Engenharia de Software — UniCesumar
-Tema / Sistema: WebEducação — Plataforma de Aulas Particulares
+Tema: WebEducação — Plataforma de Aulas Particulares
 Cenário Escolhido: Cenário J Aulas particulares entre alunos e professores autônomos
 
 Integrantes do Grupo
 
-Lucas Vinícius Strachulski Lider do Grupo
+Lucas Vinícius Strachulski (Lider)
 
 Jhuan Pablo Kobinski de Souza
 
@@ -20,11 +20,11 @@ A WebEducação nasceu pra resolver um problema bem comum na UniCesumar: a dific
 A ideia é ser um ponto de encontro simples. O professor se cadastra, coloca as matérias que domina, o preço da hora/aula e marca na agenda os horários livres. O aluno entra, pesquisa a matéria, ajusta o filtro pro valor que cabe no bolso, escolhe o horário e reserva. Pra ninguém levar calote ou furar a aula, o pagamento é feito direto pela plataforma.
 
 Por que escolhemos o Desenvolvimento Incremental?
-A gente conversou e achou melhor ir pelo modelo Incremental (Ágil). Fazer tudo no modelo Cascata (aquele tradicional e travado) não ia dar certo por alguns motivos bem práticos:
+A gente conversou e achou melhor ir pelo modelo Incremental. Fazer tudo no modelo Cascata não ia dar certo por alguns motivos:
 
 As ideias mudavam toda hora: Conforme a gente desenhava como o sistema ia funcionar, percebia que o fluxo de agendamento precisava de ajustes. Se ficasse travado no papel antes de codar, a gente ia ter que refazer tudo do zero depois.
 
-Foco no principal MVP: Decidimos focar o primeiro ciclo só no básico pra rodar: achar o professor, agendar e validar o pagamento. Funcionando isso, as outras coisas (tipo chat e relatórios) entram nas próximas entregas.
+Foco no principal MVP: Decidimos focar o primeiro ciclo só no básico pra rodar: achar o professor, agendar e validar o pagamento. 
 
 Testar rápido com o pessoal: Entregando em ciclos curtos, dá pra mostrar as telas funcionando prós próprios colegas e ver se tá fácil de usar antes de ir mais fundo.
 
