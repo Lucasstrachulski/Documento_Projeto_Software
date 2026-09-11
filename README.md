@@ -2,7 +2,7 @@ PROJETO INTEGRADOR — CONSOLIDAÇÃO DO 1º BIMESTRE
 
 Curso: Engenharia de Software — UniCesumar
 
-Tema / Sistema: WebEducação — Plataforma de Aulas Particulares
+Tema: WebEducação — Plataforma de Aulas Particulares
 
 Cenário Escolhido: Cenário J Aulas particulares entre alunos e professores autônomos
 
