@@ -2,6 +2,7 @@
 Tabela do backlog com user stories
 
 ID	                  User Story	                                                                                                                                   Prioridade
+
 usuario01	               Como aluno, quero buscar professores por disciplina e valores preço,                                                                            Alta
                          para encontrar um educador compatível com meu orçamento e necessidade.	 
 
