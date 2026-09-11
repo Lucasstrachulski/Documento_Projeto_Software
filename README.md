@@ -1,7 +1,9 @@
 PROJETO INTEGRADOR — CONSOLIDAÇÃO DO 1º BIMESTRE
 
 Curso: Engenharia de Software — UniCesumar
-Tema: WebEducação — Plataforma de Aulas Particulares
+
+Tema / Sistema: WebEducação — Plataforma de Aulas Particulares
+
 Cenário Escolhido: Cenário J Aulas particulares entre alunos e professores autônomos
 
 Integrantes do Grupo
@@ -15,208 +17,67 @@ Pedro Henrique Chaves
 Felipe Fernandes Maximo
 
 Apresentação do Sistema
-A WebEducação nasceu pra resolver um problema bem comum na UniCesumar: a dificuldade de achar monitores ou professores particulares pra matérias mais pesadas (tipo Cálculo, Estrutura de Dados ou Física). Do outro lado, quem quer dar aula também sofre pra organizar a agenda e receber pelo serviço.
 
-A ideia é ser um ponto de encontro simples. O professor se cadastra, coloca as matérias que domina, o preço da hora/aula e marca na agenda os horários livres. O aluno entra, pesquisa a matéria, ajusta o filtro pro valor que cabe no bolso, escolhe o horário e reserva. Pra ninguém levar calote ou furar a aula, o pagamento é feito direto pela plataforma.
+A WebEducaçao conecta alunos com dificuldade em matérias pesadas como Cálculo ou Estrutura de Dados a colegas dispostos a dar aulas particulares. O professor cadastra matérias, valores e horários vagos; o aluno busca, filtra por preço, reserva e paga pela própria plataforma pra evitar calotes ou faltas.
 
 Por que escolhemos o Desenvolvimento Incremental?
-A gente conversou e achou melhor ir pelo modelo Incremental. Fazer tudo no modelo Cascata não ia dar certo por alguns motivos:
 
-As ideias mudavam toda hora: Conforme a gente desenhava como o sistema ia funcionar, percebia que o fluxo de agendamento precisava de ajustes. Se ficasse travado no papel antes de codar, a gente ia ter que refazer tudo do zero depois.
+Optamos pelo modelo Incremental (Ágil) em vez do Cascata porque as ideias mudavam direto no início. Esse modelo permite focar no MVP, testar as telas rápido com outros alunos e fazer ajustes sem precisar refazer o projeto do zero.
 
-Foco no principal MVP: Decidimos focar o primeiro ciclo só no básico pra rodar: achar o professor, agendar e validar o pagamento. 
+Backlog do Produto (User Stories)
 
-Testar rápido com o pessoal: Entregando em ciclos curtos, dá pra mostrar as telas funcionando prós próprios colegas e ver se tá fácil de usar antes de ir mais fundo.
+Usuario 01 (Alta): Filtro de busca por matéria e valor limite por hora.
 
-Backlog do Produto e Divisão das Tarefas
+Usuario 02 (Alta): Escolha do horário vago com pagamento e bloqueio imediato da vaga.
 
-4.1. Histórias de Usuário User Stories
-Aqui tá o que a gente mapeou que o sistema precisa ter:
+Usuario 03 (Alta): Gestão de agenda do professor impedindo horários duplicados.
 
-Usuario 01 Prioridade Alta — Filtro de Busca por Matéria e Preço
+Usuario 04 (Alta): Perfil do professor com foto, bio e matérias lecionadas.
 
-Como: Aluno
+Usuario 05 (Média): Avaliação e comentário do professor pelo aluno pós-aula.
 
-Eu quero: Filtrar professores por matéria e preço máximo.
+Usuario 06 (Média): Nota de presença de 1 a 5 dada pelo professor ao aluno.
 
-Para que: Achar alguém pra me ajudar na matéria sem estourar o orçamento.
+Usuario 07 (Média): Envio de e-mail de confirmação e lembrete 2h antes da aula.
 
-O que precisa ter: Campo de busca por texto e um filtro de preço limite.
+Usuario 08 (Baixa): Painel financeiro do professor mostrando saldo acumulado.
 
-Usuario 02 Prioridade Alta — Escolha de Horário e Pagamento Imediato
+Usuario 09 (Baixa): Chat simples pós-aula para tirar dúvidas rápidas.
 
-Como: Aluno
+Sprint Simulada
 
-Eu quero: Escolher o horário vago e já pagar a aula na hora.
+Testamos as histórias Usuario 01, Usuario 02 e Usuario 03. Montamos a busca com filtro, o calendário sem conflito de horários e o checkout simulado que altera o status da aula para Confirmada. O fluxo completo rodou sem erros.
 
-Para que: Garantir a vaga no horário sem correr o risco de perder pra outro.
-
-O que precisa ter: Travar o horário na agenda e mudar o status assim que o pagamento passar.
-
-Usuario 03 Prioridade Alta — Gestão da Agenda do Professor
-
-Como: Professor
-
-Eu quero: Cadastrar e mexer nos meus horários da semana.
-
-Para que: Organizar minha rotina e não marcar duas aulas no mesmo horário.
-
-O que precisa ter: O sistema não pode deixar salvar dois horários encavalados no mesmo dia.
-
-Usuario 04 Prioridade Alta — Perfil do Professor
-
-Como: Professor
-
-Eu quero: Montar meu perfil com matérias, preços e minha formação.
-
-Para que: Passar confiança pros alunos e fechar mais aulas.
-
-O que precisa ter: Foto, biografia rápida e a lista das matérias que ensino.
-
-Usuario 05 Prioridade Média — Avaliação do Professor pelo Aluno
-
-Como: Aluno
-
-Eu quero: Dar uma nota e deixar um comentário depois da aula.
-
-Para que: Ajudar outros alunos a saberem se o professor manda bem.
-
-O que precisa ter: Liberar a avaliação só depois que o horário da aula terminar.
-
-Usuario 06 Prioridade Média — Avaliação do Aluno pelo Professor
-
-Como: Professor
-
-Eu quero: Dar uma nota de presença pro aluno.
-
-Para que: Deixar registrado se o aluno foi pontual e de boa na aula.
-
-O que precisa ter: Campo de nota de 1 a 5 no histórico de aulas do professor.
-
-Usuario 07 Prioridade Média — Lembretes e Notificações por E-mail
-
-Como: Aluno
-
-Eu quero: Receber e-mail confirmando a aula e me lembrando do horário.
-
-Para que: Eu não esqueça do compromisso.
-
-O que precisa ter: Disparo de e-mail assim que agenda e outro 2 horas antes de começar.
-
-Usuario 08 Prioridade Baixa — Painel Financeiro do Professor
-
-Como: Professor
-
-Eu quero: Ver um resumo de quanto ganhei no mês.
-
-Para que: Saber quanto tenho liberado pra sacar.
-
-O que precisa ter: Tela mostrando o total líquido e o histórico das aulas pagas.
-
-Usuario 09 Prioridade Baixa — Chat de Dúvidas Pós-Aula
-
-Como: Aluno
-
-Eu quero: Mandar mensagem pro professor depois que a aula fechar.
-
-Para que: Tirar alguma dúvida rápida sobre a aula.
-
-O que precisa ter: Chat simples atrelado àquela aula específica.
-
-4.2. O que fizemos na Sprint Simulada
-Pra testar o primeiro ciclo Sprint, a gente pegou as três tarefas mais importantes (Usuario 01, Usuario 02 e Usuario 03), que cobrem o caminho principal do uso.
-
-Meta da Sprint: Deixar o fluxo completo rodando: da busca da aula até a confirmação do pagamento com o bloqueio da agenda.
-
-O que a gente fez e testou:
-
-Montamos a tela de busca onde o aluno pesquisa a matéria tipo Algoritmos e limita o preço máximo ex: até R$ 60.
-
-Criamos a lógica do calendário pra permitir cadastrar horários sem deixar dar choque de agenda.
-
-Fizemos a tela de checkout simulada, que valida o cartão e muda a aula de Pendente pra Confirmada.
-
-Resultado do teste: Deu pra simular certinho o aluno reservando a aula de um professor de teste sem dar nenhum erro de conflito na agenda.
-
-Testes do Sistema Escritos em Gherkin / BDD
-Pra ter certeza que tudo vai funcionar na prática, montamos os cenários de teste pensando no dia a dia.
+Testes do Sistema (Gherkin / BDD)
 
 Módulo 1: Busca de Professores Usuario 01
 
-Cenário 1.1: Busca normal com filtros
-Dado que estou na tela de busca
-E digito Estrutura de Dados no campo de pesquisa
-E coloco o valor máximo de R$ 70,00
-Quando clico em Buscar
-Então o sistema mostra a lista de professores de Estrutura de Dados que cobram até R$ 70,00 por hora.
+Cenário 1.1: Busca traz professores da matéria até o valor estipulado.
 
-Cenário 1.2: Quando não acha ninguém no filtro
-Dado que pesquiso por Cálculo 3
-E coloco o preço máximo de R$ 15,00
-Quando clico em Buscar
-Então o sistema avisa Nenhum professor encontrado para esse valor ou matéria
-E dá a opção de limpar os filtros.
+Cenário 1.2: Exibe aviso e opção de limpar filtro quando não encontra resultados.
 
-Cenário 1.3: Digitando valor inválido no filtro
-Dado que estou na tela de busca
-E coloco letras ou números negativos no preço máximo
-Quando tento buscar
-Então o sistema avisa que o valor tá errado e pede pra corrigir.
+Cenário 1.3: Exibe alerta ao digitar letras ou valores negativos no preço.
 
 Módulo 2: Agendamento e Pagamento Usuario 02
 
-Cenário 2.1: Agendando e pagando com sucesso
-Dado que escolhi a aula de Estrutura de Dados com o professor Carlos pra quinta-feira às 15:00
-E estou na tela de pagamento
-Quando preencho o cartão certinho e clico em Pagar e Confirmar
-Então o sistema aprova o pagamento
-E muda o status da aula pra Confirmada
-E tira o horário das 15:00 da lista de horários livres do professor.
+Cenário 2.1: Pagamento aprovado confirma a aula e remove o horário da agenda pública.
 
-Cenário 2.2: Cartão recusado ou sem saldo
-Dado que escolhi um horário na agenda
-E tentei pagar com um cartão recusado
-Quando o sistema tenta cobrar
-Então ele mostra a mensagem Pagamento não aprovado. Tente outro cartão
-E segura a vaga por 5 minutos antes de devolver pra agenda pública.
+Cenário 2.2: Cartão recusado segura o horário por 5 minutos antes de liberar pro público.
 
-Cenário 2.3: Aluno cancelando a aula com antecedência
-Dado que tenho uma aula confirmada pra daqui a 3 dias
-E entro em Minhas Aulas e clico em Cancelar Aula
-Quando confirmo o cancelamento
-Então o sistema cancela a reserva
-E avisa que o dinheiro vai ser devolvido
-E libera o horário de novo na agenda do professor.
+Cenário 2.3: Cancelamento prévio faz o estorno e reabre o horário na agenda do professor.
 
-Módulo 3: Agenda do Professor e Bloqueio de Choques Usuario 03
+Módulo 3: Agenda do Professor Usuario 03
 
-Cenário 3.1: Cadastrando novo horário livre
-Dado que entrei no meu painel de professor
-E escolho a data de amanhã no horário das 09:00 às 10:00
-Quando clico em Salvar Horário
-Então o sistema salva a disponibilidade e ela começa a aparecer na busca pros alunos.
+Cenário 3.1: Novo horário salvo com sucesso fica disponível na busca.
 
-Cenário 3.2: Tentando cadastrar dois horários no mesmo horário
-Dado que já tenho um horário das 14:00 às 15:00 no dia 15/10
-Quando tento cadastrar outro das 14:30 às 15:30 no mesmo dia
-Então o sistema não deixa salvar e avisa Você já possui uma disponibilidade cadastrada nesse mesmo intervalo.
+Cenário 3.2: Sistema bloqueia tentativa de salvar dois horários sobrepostos no mesmo dia.
 
-Cenário 3.3: Dois alunos tentando a mesma vaga ao mesmo tempo
-Dado que o Aluno A e o Aluno B estão com o mesmo horário das 16:00 aberto no pagamento
-Quando o Aluno A clica em pagar e a transação passa um segundo antes do Aluno B
-Então o Aluno A garante a vaga
-E o Aluno B recebe o aviso Este horário acabou de ser reservado por outro usuário e a cobrança é cancelada.
+Cenário 3.3: Em tentativa simultânea de compra, o pagamento aprovado primeiro garante a vaga e cancela a cobrança do outro.
 
-Cuidados Éticos, Regras e Privacidade
-A gente alinhou alguns pontos essenciais pra plataforma rodar sem quebrar regras da faculdade ou leis de privacidade:
+Cuidados Éticos e Privacidade
 
-Cuidado com a LGPD: Nada de pedir dado à toa. O cadastro pede só nome, e-mail da faculdade, telefone e senha (que fica criptografada). Dados de cartão não ficam salvos no nosso banco, vão direto pelo gateway de pagamento.
+LGPD: Coleta apenas dados básicos (senha criptografada) e cartão processado via gateway seguro.
 
-Proibido cola ou fraude: A plataforma é estritamente pra aulas particulares, explicação de matéria e tirar dúvidas. Vamos deixar bem claro nos termos de uso que é proibido contratar gente pra fazer trabalho ou prova no lugar de aluno.
+Regras de Uso: Proibido o uso da plataforma para fraude em provas ou trabalhos.
 
-Garantia do pagamento: Pra evitar calote dos dois lados, o dinheiro só vai pro professor depois que a aula for marcada como realizada no sistema.
-
-Conclusão do Grupo
-Fazer esse relatório do 1º Bimestre ajudou muito a gente a entender como organizar um projeto de software desde a fase de ideias. Conseguimos montar um backlog realista, definir o MVP e testar na prática.
-
-O formato BDD ajudou bastante a enxergar a plataforma pela visão do usuário, o que evitou vários furos nas regras de negócio. O grupo tá bem alinhado e pronto pras próximas etapas, onde vamos desenhar a arquitetura e os protótipos das telas.
+Retenção do Pagamento: Repasse ao professor apenas após a realização confirmada da aula.
