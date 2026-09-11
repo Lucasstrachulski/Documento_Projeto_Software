@@ -8,8 +8,11 @@ Cenário Escolhido: Aulas particulares entre alunos e professores autônomos
 
 Integrantes do Grupo
 Lucas Vinícius Strachulski (Lider)
+
 Jhuan Pablo Kobinski de Souza
+
 Pedro Henrique Chaves
+
 Felipe Fernandes Maximo
 
 Identificação e Visão Geral do Sistema
