@@ -1,6 +1,6 @@
 PROJETO INTEGRADOR — CONSOLIDAÇÃO DO 1º BIMESTRE
 
-Curso: Engenharia de Software — UniCesumar
+Curso: Analise e Desenvolvimento de Sistemas— UniCesumar
 
 Tema: WebEducação — Plataforma de Aulas Particulares
 
