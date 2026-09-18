@@ -3,6 +3,16 @@ Armazenamento desnecessário ou desprotegido de dados sensíveis e bancários de
 
 Risco | Descrição | Mitigação Proposta
 --- | --- | ---
-Coleta excessiva de dados (LGPD) | Vazamento de informações sensíveis ou dados bancários de alunos. | Solicitar apenas dados básicos, criptografar senhas e usar gateway externo.
-Fraude acadêmica | Alunos contratarem professores para realizar provas ou trabalhos por eles. | Inserir cláusula nos termos proibindo atividades e criar canal de denúncia.
-Ausência de serviço pago | Professor receber o dinheiro e não comparecer ao horário marcado. | Retenção do valor pelo sistema até a confirmação da aula.
+Coleta excessiva de dados (LGPD) | Vazamento de informações sensíveis ou dados bancários de alunos.           | Solicitar apenas dados básicos, criptografar senhas e usar gateway externo.
+Fraude acadêmica                 | Alunos contratarem professores para realizar provas ou trabalhos por eles. | Inserir cláusula nos termos proibindo atividades e criar canal de denúncia.
+Ausência de serviço pago         | Professor receber o dinheiro e não comparecer ao horário marcado.          | Retenção do valor pelo sistema até a confirmação da aula.
+
+
+
+CONSIDERAÇÃO FINAL
+
+A integração dos diferentes tópicos da matéria em um único projeto foi, sem dúvidas, o ponto de maior desafio para o nosso grupo durante a criação da WebEducação. 
+A gente precisou olhar para o sistema além da parte técnica, entendendo como o fluxo de aulas particulares, os agendamentos e a intermediação de pagamentos precisavam se conectar perfeitamente. 
+Trabalhar com as User Stories ajudou muito a colocar as dores de alunos e professores em primeiro lugar, facilitando a escolha do que realmente importava para o nosso MVP. 
+Quando montamos o plano de testes, ficou evidente o quanto a validação contínua é crítica para evitar falhas sérias, como o conflito de dois alunos reservando o mesmo horário. 
+Além disso, debater ética e LGPD nos fez entender que segurança e privacidade não são etapas finais, mas premissas que devem nascer com a aplicação.
