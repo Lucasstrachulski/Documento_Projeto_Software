@@ -1,0 +1,8 @@
+O principal risco do sistema é o vazamento de dados por ter uma coleta de dados excessiva.
+Armazenamento desnecessário ou desprotegido de dados sensíveis e bancários de alunos e professores na plataforma.
+
+Risco | Descrição | Mitigação Proposta
+--- | --- | ---
+Coleta excessiva de dados (LGPD) | Vazamento de informações sensíveis ou dados bancários de alunos. | Solicitar apenas dados básicos, criptografar senhas e usar gateway externo.
+Fraude acadêmica | Alunos contratarem professores para realizar provas ou trabalhos por eles. | Inserir cláusula nos termos proibindo atividades e criar canal de denúncia.
+Ausência de serviço pago | Professor receber o dinheiro e não comparecer ao horário marcado. | Retenção do valor pelo sistema até a confirmação da aula.
